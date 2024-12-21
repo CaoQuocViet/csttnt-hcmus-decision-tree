@@ -1,48 +1,64 @@
-Decision Tree Classifier
 
-This project implements a Decision Tree Classifier from scratch in Python. It is demonstrated using the Iris dataset.
+# Decision Tree Classifier
 
-Demo
------
-(Include the image output.png here manually)
+## Demo
+![Output Result](output.png)
 
-Project Structure
------------------
-- DecisionTree.py: Main script for building and evaluating the Decision Tree classifier.
-- output.png: Demo result image.
-- requirements.txt: Required Python libraries.
-- venv: Virtual environment directory (not included in the repository).
+## Project Structure
+- `DecisionTree.py`: Main script for building and evaluating the Decision Tree classifier.
+- `output.png`: Demo result image.
+- `requirements.txt`: Contains the necessary dependencies.
+- `venv/`: Virtual environment directory.
 
-Installation and Usage
------------------------
-1. Clone the repository
-   To clone this repository, use the following command:
-   git clone https://github.com/CaoQuocViet/csttnt-hcmus-decision-tree.git
-   cd csttnt-hcmus-decision-tree
+## Cloning the Repository
 
-2. Set up a virtual environment
-   Create a virtual environment to isolate the project dependencies:
-   python -m venv venv
-   # On Windows
-   venv\Scripts\activate
-   # On macOS/Linux
-   source venv/bin/activate
+Clone the repository using the following command:
 
-3. Install dependencies
-   Once the virtual environment is activated, install the required libraries:
-   pip install -r requirements.txt
+```bash
+git clone https://github.com/CaoQuocViet/csttnt-hcmus-decision-tree.git
+```
 
-4. Run the Decision Tree model
-   After the dependencies are installed, you can run the Decision Tree classifier:
-   python DecisionTree.py
+## Setting up the Virtual Environment
 
-5. View the output
-   The output of the model's performance will be displayed in the terminal. The demo image `output.png` shows the result.
+Navigate to the project directory and create a virtual environment:
 
-Contributing
-------------
-Contributions are welcome! If you have any suggestions or fixes, feel free to fork the repository and submit a pull request.
+```bash
+cd csttnt-hcmus-decision-tree
+python3 -m venv venv
+```
 
-License
--------
+Activate the virtual environment:
+
+For Linux/macOS:
+```bash
+source venv/bin/activate
+```
+
+For Windows:
+```bash
+venv\Scripts\activate
+```
+
+## Installing Dependencies
+
+Install the necessary dependencies from the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Running the Model
+
+Run the model script with the following command:
+
+```bash
+python DecisionTree.py
+```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+
+## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
